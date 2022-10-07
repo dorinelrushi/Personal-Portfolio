@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(237, 237, 237);
+    font-family: sans-serif;
+    
+}
+
+
+
+.navigation{
+    width: 100%;
+    background:rgb(0, 0, 0);
+    position: fixed;
+}
+
+.navigation-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-gap: 25px;
+    padding: 5px 0px;
+}
+
+
+.logo{
+    display: block;
+}
+.logo-mobile{
+    display: none;
+}
+.menu-bar{
+    display: block;
+}
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+}
+.menu-bar ul li{
+   margin: 0px 8px;
+}
+
+.menu-bar ul a{
+    color: rgb(232, 232, 232);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+ }
+#mobile-nav{
+ display: none;
+ height: 0%;
+}
+.spline-watermark img{
+ 
+    
+    display: none;
+}
+
+ .mobile-nav-flex{
+    width: 100%;
+    background:rgb(28, 28, 28);
+    padding: 20px 0px;
+ }
+ .menu-mobile{
+    width: 85%;
+    margin: auto;
+ }
+ .menu-mobile ul{
+    list-style: none;
+ }
+
+ .menu-mobile ul li{
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(72, 72, 72);
+ }
+
+ .menu-mobile ul li a{
+   text-decoration: none;
+   color: rgb(127, 127, 127); 
+   font-size: 20px;
+   letter-spacing: 1.2px;
+ }
+
+ .bars{
+    
+    display: none;
+    cursor: pointer;
+ }
+
+
+.header{
+    width: 100%;
+    background:rgb(0, 0, 0);
+}
+.profile-rounded{
+    width: 190px;
+    height: 190px;
+    background: url('/public/photo/dorinelProfile.jpeg');
+    background-size: cover;
+    border-radius: 400%;
+    margin-bottom: 30px;
+}
+
+.header-flex{
+    width: 59%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 190px 0px;
+
+}
+
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text p:nth-child(1){
+    color: white;
+    margin-bottom: 25px;
+   font-size: 20px;
+    letter-spacing: 1px;
+}
+.header-text h1{
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.header-text h2{
+   color:  #10ee00;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.header-text .info{
+    color: rgb(255, 255, 255);
+     letter-spacing: 1px;
+     margin-bottom: 25px;
+     font-size: 18px;
+     line-height: 25px;
+     max-width: 450px;
+ }
+ .header-text a{
+    text-decoration: none;
+ }
+
+.header-text button{
+    background-color: #27f519;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
