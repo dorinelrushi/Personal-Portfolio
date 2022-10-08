@@ -1,11 +1,17 @@
 *{
     margin: 0px;
     padding: 0px;
+    outline: none;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
 }
 
 body{
     background-color: rgb(237, 237, 237);
     font-family: sans-serif;
+    transition: all 1.5s ease;
     
 }
 
@@ -15,63 +21,78 @@ body{
     width: 100%;
     background:rgb(0, 0, 0);
     position: fixed;
+    transition: all 1.5s ease;
 }
 
 .navigation-flex{
     display: flex;
-    justify-content: space-evenly;
+    width: 61%;
+    justify-content: space-between;
+    margin: auto;
     align-items: center;
     grid-gap: 25px;
     padding: 5px 0px;
+    transition: all 1.5s ease;
 }
 
 
 .logo{
     display: block;
+    transition: all 1.5s ease;
 }
 .logo-mobile{
     display: none;
+    transition: all 1.5s ease;
 }
 .menu-bar{
     display: block;
+    transition: all 1.5s ease;
 }
 .menu-bar ul {
     list-style: none;
+    transition: all 1.5s ease;
     display: flex;
 }
 .menu-bar ul li{
+    transition: all 1.5s ease;
    margin: 0px 8px;
 }
 
 .menu-bar ul a{
+    transition: all 1.5s ease;
     color: rgb(232, 232, 232);
     text-decoration: none;
     letter-spacing: 0.5px;
  }
 #mobile-nav{
  display: none;
+ transition: all 1.5s ease;
  height: 0%;
 }
 .spline-watermark img{
  
-    
+    transition: all 1.5s ease;
     display: none;
 }
 
  .mobile-nav-flex{
+    transition: all 1.5s ease;
     width: 100%;
     background:rgb(28, 28, 28);
     padding: 20px 0px;
  }
  .menu-mobile{
     width: 85%;
+    transition: all 1.5s ease;
     margin: auto;
  }
  .menu-mobile ul{
+    transition: all 1.5s ease;
     list-style: none;
  }
 
  .menu-mobile ul li{
+    transition: all 1.5s ease;
     margin: 20px 0px;
     padding: 10px 0px;
     border-bottom: 1px solid rgb(72, 72, 72);
@@ -81,11 +102,12 @@ body{
    text-decoration: none;
    color: rgb(127, 127, 127); 
    font-size: 20px;
+   transition: all 1.5s ease;
    letter-spacing: 1.2px;
  }
 
  .bars{
-    
+    transition: all 1.5s ease;
     display: none;
     cursor: pointer;
  }
@@ -94,28 +116,37 @@ body{
 .header{
     width: 100%;
     background:rgb(0, 0, 0);
+    transition: all 1.5s ease;
 }
 .profile-rounded{
     width: 190px;
     height: 190px;
     background: url('/public/photo/dorinelProfile.jpeg');
     background-size: cover;
+    transition: all 1.5s ease;
     border-radius: 400%;
     margin-bottom: 30px;
 }
 
 .header-flex{
-    width: 59%;
+    width: 61%;
     display: flex;
     align-items: center;
+    transition: all 1.5s ease;
     justify-content: space-between;
     margin: auto;
-    padding: 190px 0px;
+    padding: 130px 0px;
 
+
+}
+.header-right img{
+    transition: all 1.5s ease;
+    margin-left: 40px;
 }
 
 .header-right{
     display: flex;
+    transition: all 1.5s ease;
     justify-content: center;
     align-items: center;
 }
@@ -123,11 +154,13 @@ body{
 .header-text p:nth-child(1){
     color: white;
     margin-bottom: 25px;
+    transition: all 1.5s ease;
    font-size: 20px;
     letter-spacing: 1px;
 }
 .header-text h1{
     font-size: 90px;
+    transition: all 1.5s ease;
     color: white;
     font-weight: bold;
     letter-spacing: 1px;
@@ -137,28 +170,33 @@ body{
 .header-text h2{
    color:  #10ee00;
     font-weight: bold;
+    transition: all 1.5s ease;
     letter-spacing: 1px;
     margin-bottom: 25px;
 }
 
 .header-text .info{
-    color: rgb(255, 255, 255);
-     letter-spacing: 1px;
+    color: rgb(243, 243, 243);
+     letter-spacing: 1.2px;
      margin-bottom: 25px;
      font-size: 18px;
+     transition: all 1.5s ease;
      line-height: 25px;
      max-width: 450px;
  }
  .header-text a{
     text-decoration: none;
+    transition: all 1.5s ease;
  }
 
 .header-text button{
-    background-color: #27f519;
+    background-color: #10ee00;
+    transition: all 1.5s ease;
     width: 150px;
     height: 50px;
     border-radius: 50px;
     color: rgb(0, 0, 0);
+    border: none;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;

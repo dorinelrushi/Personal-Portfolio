@@ -6,12 +6,15 @@
 @media only screen  and (max-width:833px){
     .navigation{
         width: 100%;
+        transition: all 1.5s ease;
         background: rgba(0,0,0,0.8);
         color: white;
+      
     }
     .navigation-flex{
         width: 85%;
         margin: auto;
+        transition: all 1.5s ease;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -20,18 +23,22 @@
     }
     .logo{
         display:none;
+        transition: all 1.5s ease;
     }
     .logo-mobile{
         display: block;
+        transition: all 1.5s ease;
     }
     .menu-bar{
         display: none;
+        transition: all 1.5s ease;
     }
     
     .bars{
         display: flex;
         flex-direction: column;
         grid-gap: 50px;
+        transition: all 1.5s ease;
         display: block;
     }
 
@@ -50,3 +57,69 @@
 
 }
 
+@media only screen  and (max-width:1610px){
+    .header-text h1{
+        font-size: 70px;
+        transition: all 1.5s ease;
+    }
+    .header-text .info{
+           max-width: 650px;
+           transition: all 1.5s ease;
+    }
+    .header-text h2{font-size: 18px;  
+          transition: all 1.5s ease;}
+}
+
+@media only screen  and (max-width:1270px){
+   .header-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.5s ease;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+   }
+   .header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.5s ease;
+    flex-direction: column;
+    text-align: center;
+   }
+}
+
+@media only screen  and (max-width:600px){
+ 
+    .header-flex{
+        width: 82%;
+        transition: all 1.5s ease;
+        padding: 90px 0px;
+    }
+
+    .header-text h1{
+        font-size: 60px;
+        display: flex;
+        transition: all 1.5s ease;
+        grid-gap: 25px;
+    }
+    .header-text h2{
+        font-size: 14px;
+    }
+    .header-text h1 br{
+        display: none;
+       margin: 0px 10px;
+       transition: all 1.5s ease;
+    }
+    .header-text .info{
+        max-width: 2060px!important;
+        transition: all 1.5s ease;
+    }
+    .header-right img{
+        transition: all 1.5s ease;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+      
+ }
