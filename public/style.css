@@ -161,6 +161,7 @@ body{
 }
 .header-text h1{
     font-size: 90px;
+    line-height: 88px;
     transition: all 1.5s ease;
     color: white;
     font-weight: bold;
@@ -341,4 +342,242 @@ body{
   border-radius: 20px;
   overflow: hidden;
   box-shadow: rgba(15, 11, 37, 0.141) 0px 48px 100px 0px;
+}
+
+.showmorebutton button{
+    background-color: #0a84ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    transition: all 1.5s ease;
+    width: 190px;
+    height: 60px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+   margin-top: 90px;
+    margin-bottom: 90px;
+    cursor: pointer;
+}
+
+/*ABOUT*/
+
+.text-about{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.text-about-flex{
+    width:51%;
+    padding: 160px 0px 60px 0px;
+    margin: auto;
+}
+
+.text-about-flex h2{
+    font-size: 80px;
+    color: white;
+    font-family: myFirstFont;
+}
+
+.text-about-flex p{
+    color: white;
+    font-size: 28px;
+    margin-top: 60px;
+    line-height: 1.26286;
+    font-weight: 100;
+    max-width: 950px;
+    letter-spacing: 0.15px;
+    color: #A1A1A6;
+}
+
+.skills{
+    width: 100%;
+    position: relative;
+    padding: 20px 0px 60px 0px;
+    background: rgb(0, 0, 0);
+    margin-top: -1px;
+}
+.skills-flex{
+    margin: auto;
+}
+
+
+.skills-boxing{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(26rem,20fr));
+    grid-gap: 35px;
+   justify-content: center;
+   margin: auto;
+    margin-top: -100px;
+}
+#imgB{
+    text-align: center;
+    margin: auto;
+}
+.box-left-one{
+  width: 100%;
+  background: linear-gradient(178deg, #151516 1.69%, #272727 232.14%);
+  border-radius: 30px;
+  background-size: cover;
+    border-radius: 50px;
+}
+.box-right-one{
+    width: 100%;
+    border-radius: 50px;
+    background: linear-gradient(178deg, #151516 1.69%, #272727 232.14%);
+    border-radius: 30px;
+    background-size: cover;
+}
+
+.text-inside-boxinga h2{
+    color: rgb(255, 255, 255);
+}
+.text-inside-boxinga{
+    padding: 60px 40px;
+}
+
+.text-inside-boxinga h2{
+    font-size: 66px;
+    font-family: myFirstFont;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+}
+
+.text-inside-boxinga p{
+    font-size: 18px;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: rgb(200, 200, 200);
+}
+
+.frontend-d h2{
+    font-size: 25px;
+    font-family: myFirstFont;
+    margin: 20px 0px;
+    
+}
+.backend-d h2{
+    font-size: 25px;
+    font-family: myFirstFont;
+    margin: 20px 0px;
+}
+
+.progress{
+    width: 80%;
+    height: 5px;
+   overflow: hidden;
+    margin-bottom: 10px;
+    background-color: #242424;
+}
+.progression{
+    width: 90%;
+    height: 5px;
+    background: linear-gradient(to left,transparent, #05f425);
+}
+
+
+
+.progress1{
+    width: 80%;
+    height: 5px;
+   overflow: hidden;
+    margin-bottom: 10px;
+    background-color: #242424;
+}
+.progression1{
+    width: 50%;
+    height: 5px;
+    background: linear-gradient(to left,transparent, #2787f6);
+
+}
+
+.inside-right-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 40px;
+    position: relative;
+}
+
+.profile-on{
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    background: url('./photo/dorinelProfile.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.main-skills h2{
+   color: white;
+   margin: 30px 0px;
+   font-family: myFirstFont;
+   color: #ffffff;
+   font-size: 28px;
+   letter-spacing: 1;
+}
+
+.skill-list ul{
+    color: white;
+}
+
+.skill-list ul li{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px 0px 0px 22px;
+    max-width: 500px;
+    color: rgb(200, 200, 200);
+}
+
+
+.list-ex ul{
+    color: white;
+    list-style: none;
+}
+
+.list-ex ul li{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px 0px 0px 0px;
+    max-width: 500px;
+    color: rgb(200, 200, 200);
+}
+
+.in-b{
+    display: flex;
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+.f-icon{
+    width: 140px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to  bottom,transparent,rgba(70, 68, 68, 0.401));
+    border-radius: 20px;
+}
+.s-icon{
+    width: 140px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to  bottom,transparent,rgba(70, 68, 68, 0.401));
+    border-radius: 20px;
+}
+.th-icon{
+    width: 140px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to  bottom,transparent,rgba(70, 68, 68, 0.401));
+    border-radius: 20px;
 }
