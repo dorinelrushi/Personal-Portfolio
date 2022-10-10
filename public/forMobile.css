@@ -148,3 +148,54 @@
     margin: auto;
    }
  }
+
+
+ @media only screen  and (max-width:650px){
+  .skills-boxing{
+       margin-top: 0px;
+  }
+ }
+ @media only screen  and (max-width:650px){
+    .skills-boxing{
+         margin-top: 0px;
+    }
+   }
+
+   @media only screen  and (max-width:600px){
+    .text-inside-boxinga h2{
+            font-size: 46px;
+    }
+    .box-left-one{
+        width: 90%;
+        margin: auto;
+    }
+    .box-right-one{
+        width: 90%;
+        margin: auto;
+    }
+
+    .text-about-flex h2{
+        font-size: 35px;
+    }
+    .text-about-flex {
+        width: 51%;
+        padding: 90px 0px 60px 0px;
+        margin: auto;
+    }
+    .text-about-flex{
+        width: 85%;
+    }
+    .text-about-flex p{
+        font-size: 22px;
+        max-width: 650px;
+    }.list-ex ul li {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .skill-list ul li{
+        line-height: 35px;
+    }
+    .in-b{
+        display: none;
+    }
+   }
