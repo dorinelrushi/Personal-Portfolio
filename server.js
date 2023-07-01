@@ -7,7 +7,7 @@ app.set("view engine", "ejs");
 
 app.use("/public", express.static("public"));
 
-app.get("/home", (req, res) => {
+app.get("/", (req, res) => {
   res.render("index");
 });
 
